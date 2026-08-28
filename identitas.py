@@ -1,0 +1,12 @@
+Nama = input("nama ku: ")
+Nim = input("Nim ku: ")
+Tempat_Tanggal_Lahir = input("Masukkan Tempat Tanggal Lahir mu: ")
+Jenis_Kelamin = input("Jenis_Kelamin: ")
+Hobi = input("Hobi ku: ")
+
+print("\t\t IDENTITAS DIRI KU INI")
+print("Nama ku adalah", Nama)
+print("Nim ku", Nim)
+print("Tempat Tanggal Lahir ku di", Tempat_Tanggal_Lahir)
+print("Jenis Kelamin ku", Jenis_Kelamin)
+print("Hobi ku itu", Hobi)
