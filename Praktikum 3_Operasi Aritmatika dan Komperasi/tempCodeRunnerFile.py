@@ -1,18 +1,17 @@
-# "is" sebagai komparasi object identity, mengecek apakah kedua object itu sama atau tidak
-print("===Operasi is===")
-x = 5 #ini adalah assignment membuat objek, bukan perbandingan
-y = 5
-hasil = x is y
-print(x, "is", y, "=", hasil)
 
-x = 5
-y = 6
-hasil = x is y
-print(x, "is", y, "=", hasil)
+#program konversi calcius ke satuan lain
+print("\nProgram Konversi Satuan Temperature")
+celcius = float(input("Masukkan suhu dalam Celcius: "))
+print("Suhu adalah", celcius, "Celcius")
 
-# "is not" sebagai komparasi object identity, mengecek apakah kedua object itu tidak sama
-print("===Operasi is not===")
-x = 5 #ini adalah assignment membuat objek, bukan perbandingan
-y = 5
-hasil = x is not y
-print(x, "is not", y, "=", hasil)
+#reamur
+reamur = (4/5) * celcius
+print("Suhu dalam Reamur adalah", reamur, "Reamur")
+
+#fahrenheit
+fahrenheit = ((9/5) * celcius) + 32
+print("Suhu dalam Fahrenheit adalah", fahrenheit, "Fahrenheit")
+
+#kelvin
+kelvin = celcius + 273
+print("Suhu dalam Kelvin adalah", kelvin, "Kelvin")

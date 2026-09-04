@@ -6,15 +6,15 @@ print("================================")
 Volume = Panjang * Lebar * Tinggi
 print("Volume balok adalah: ", Volume)
 
-Keliling = 2 * (Panjang + Lebar + Tinggi)
+Keliling = 4 * (Panjang + Lebar + Tinggi)
 print("Keliling balok adalah: ", Keliling)
 
-Luas = Panjang * Lebar
-print("Luas balok adalah: ", Luas)
+Luas_bangunan = 2 * (Panjang * Lebar) + 2 * (Panjang * Tinggi) + 2 * (Lebar * Tinggi)
+print("Luas balok adalah: ", Luas_bangunan)
 print("================================")
-print("Maka Volume", Volume, "Keliling", Keliling, "dan Luas", Luas)
+print("Maka Volume", Volume, "Keliling", Keliling, "dan Luas", Luas_bangunan)
 print("================================")
-luas_bangunan = Luas > 50
+luas_bangunan = Luas_bangunan > 50
 print("Apakah luas bangunan lebih dari 50?", luas_bangunan)
 print("================================")
 volume_bangunan = Volume == 480
