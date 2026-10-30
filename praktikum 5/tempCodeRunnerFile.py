@@ -1,13 +1,10 @@
-angka = 0 
-print(f"angka sekarang → {angka}") 
- 
-while angka < 5: 
-    angka = angka + 1 
-    print(f"angka sekarang → {angka}") # aksi 1 
-    
-    if(angka == 3): 
-         print("nice") 
-         continue # akan membuat loop meloncat ke step selanjutnya 
-    print("whasssup") # aksi 2 
-    
-print("Pinish")
+print("=== Contoh 2 While Loop ===")
+angka = 0
+print(f"angka sekarang adalah {angka}")
+
+while angka < 2:
+    angka = angka + 1
+    #angka = angka + 1
+    print(f"angka sekarang adalah {angka}")
+    print("Hanif Putra Ganteng Sekali")
+print("program berakhir dan Hanif Putra Tidak Ganteng Sekali")
