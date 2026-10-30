@@ -10,3 +10,6 @@ print(f"list skor terkecil = {list_skor_terkecil}")
 
 list_skor_terbesar = sorted(angka, reverse=True)
 print(f"list skor terbesar = {list_skor_terbesar}")
+
+skor_terbesar = list(reversed(angka))
+print(f"skor terbesar = {skor_terbesar}")
