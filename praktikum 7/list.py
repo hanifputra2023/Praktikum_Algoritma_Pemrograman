@@ -16,12 +16,11 @@ print("Data campuran:", data_campuran)
 
 ## Cara alternatif membuat list
 data_range = range(0, 10, 2) # range(start, stop, step)
-data_list = list(data_range)
-data_list = list(range)
+data_list = list(data_range)  # <-- Diperbaiki menggunakan variabel data_range
 print(data_list)
 
 # membuat list dengan for loop, list comprehension
-list_for = [i **2 for i in range(0, 10)]
+list_for = [i ** 2 for i in range(0, 10)]
 print(list_for)
 
 # Membuat list dengan for dan if
