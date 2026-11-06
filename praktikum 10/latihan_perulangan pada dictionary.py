@@ -12,11 +12,6 @@ data_harga_buah = {
 print(data_harga_buah)
 
 #b. pakai perulangan menampilkan setiap barang dan harga
-
-items = data_harga_buah.items()
-print(f"items = {items}")
-
-
 for key, value in data_harga_buah.items():
     print(f"Harga = {key} : Rp.{value}") 
 
